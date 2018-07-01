@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Chateau Daimyo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Chateau Daimyo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Chateau Daimyo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ChateauDaimyo.cpp" />
+		<Unit filename="ChateauDaimyo.hpp" />
+		<Unit filename="ChateauGround.cpp" />
+		<Unit filename="ChateauGround.hpp" />
+		<Unit filename="DaimyoRoom.cpp" />
+		<Unit filename="DaimyoRoom.hpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.hpp" />
+		<Unit filename="RicePaddy.cpp" />
+		<Unit filename="RicePaddy.hpp" />
+		<Unit filename="Space.cpp" />
+		<Unit filename="Space.hpp" />
+		<Unit filename="Wall.cpp" />
+		<Unit filename="Wall.hpp" />
+		<Unit filename="inputValidation.cpp" />
+		<Unit filename="inputValidation.hpp" />
+		<Unit filename="joeUtilities.cpp" />
+		<Unit filename="joeUtilities.hpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.hpp" />
+		<Unit filename="playChateauDaimyo.cpp" />
+		<Unit filename="validateInputInclusive.cpp" />
+		<Unit filename="validateInputInclusive.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

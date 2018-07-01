@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tspConstruction" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tspConstruction" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="test-input-3.txt" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tspConstruction" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Map.cpp" />
+		<Unit filename="Map.hpp" />
+		<Unit filename="inputValidation.cpp" />
+		<Unit filename="inputValidation.hpp" />
+		<Unit filename="test-input-1.txt" />
+		<Unit filename="test-input-2.txt" />
+		<Unit filename="test-input-3.txt" />
+		<Unit filename="test-input-4.txt" />
+		<Unit filename="test-input-5.txt" />
+		<Unit filename="test-input-6.txt" />
+		<Unit filename="test-input-7.txt" />
+		<Unit filename="tourInOut.cpp" />
+		<Unit filename="tsp_example_1.txt" />
+		<Unit filename="tsp_example_2.txt" />
+		<Unit filename="tsp_example_3.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
